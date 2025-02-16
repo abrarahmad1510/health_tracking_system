@@ -1,0 +1,77 @@
+/* Navigation Container */
+.sidebar {
+  width: 250px; /* Increased width for better content display */
+  height: 100vh;
+  background: #ffffff; /* Clean white background */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  font-family: 'Arial', sans-serif; /* Modern, professional font */
+}
+
+/* Logo Section */
+.logo img {
+  width: 120px; /* Larger logo for better visibility */
+  margin-bottom: 30px;
+}
+
+/* Menu Items */
+.menu {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.menu li {
+  width: 100%;
+}
+
+.menu li a {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  font-size: 16px; /* Increased font size for readability */
+  font-weight: 600; /* Semi-bold for emphasis */
+  color: #333333; /* Darker text color for contrast */
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+.menu li a .icon {
+  font-size: 20px; /* Appropriately sized icons */
+  margin-right: 15px;
+}
+
+.menu li a:hover {
+  background: #f0f0f0; /* Light gray background on hover */
+  color: #007bff; /* Blue text color on hover */
+  border-radius: 8px; /* Rounded corners for a modern look */
+}
+
+/* Social Media Icons */
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: auto;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0; /* Subtle top border */
+}
+
+.social-icons a {
+  font-size: 24px; /* Consistent icon size */
+  color: inherit;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Blue color on hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
